@@ -1,4 +1,4 @@
-# Enterprise-Grade E-Commerce Frontend & Authentication Engine
+# Scalable E-Commerce Web Application Platform
 
 A full-scale, pixel-accurate frontend replication of Amazon's e-commerce platform coupled with a custom, secure client-side form validation and state-handling authentication module. Built using vanilla HTML5, modern CSS3 (Flexbox/Grid architectures), and robust JavaScript validation algorithms.
 
