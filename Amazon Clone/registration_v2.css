@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: hwb(0 100% 0%); 
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 50px;
+}
+
+.reg-logo {
+    margin-bottom: 20px;
+    margin-top: 10px; 
+}
+
+
+.reg-container {
+    width: 350px;
+    padding: 20px 26px;
+    /* White background for the card */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: #111;
+}
+
+input {
+    width: 100%;
+    padding: 8px; 
+    margin-bottom: 0; 
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.continue-button {
+    width: 100%;
+    background: #FFD814; 
+    border: 1px solid #FCD200;
+    border-radius: 8px;
+    padding: 8px 0;
+    font-size: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #111;
+}
+
+.continue-button:hover {
+    /* Slightly darker yellow on hover */
+    background: #F7CA00; 
+}
+
+.policy-text {
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 1.5;
+    color: #111;
+}
+
+.error-message {
+    color: #c40000;
+    font-size: 12px;
+    min-height: 1.5em; 
+    margin-bottom: 5px; 
+    white-space: pre-wrap; 
+}
+
+/* --- Footer Area --- */
+.reg-footer {
+    width: 100%;
+    margin-top: 40px;
+    border-top: 1px solid #e7e7e7; 
+    padding-top: 20px;
+    text-align: center;
+    font-size: 11px;
+    color: #555;
+}
+
+.links {
+    margin-bottom: 10px;
+}
+
+.links a {
+    margin: 0 10px;
+    /* Make the links slightly larger */
+    font-size: 12px; 
+}

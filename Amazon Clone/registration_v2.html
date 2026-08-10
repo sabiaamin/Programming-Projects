@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create Amazon Account</title>
+    <link rel="stylesheet" href="registration_v2.css">
+</head>
+
+<body>
+    <div class="reg-logo">
+        <!-- Placeholder for Amazon logo -->
+        <img src="amazonlogin.png" alt="Amazon Logo">
+    </div>
+
+    <div class="reg-container">
+        <h1>Create account</h1>
+        <form name="myform" id="registrationForm" onsubmit="event.preventDefault(); validate();">
+            
+            <label for="id1">Your name</label>
+            <input id="id1" name="name" type="text" placeholder="Only letters" required>
+            <!-- Validates: Not empty, only letters. -->
+            <p id="p1" class="error-message"></p>
+
+            <label for="id4">Mobile number</label>
+            <input id="id4" name="phone" type="tel" placeholder="Exactly 10 digits" required>
+            <!-- Validates: Exactly 10 digits, numeric only. -->
+            <p id="p4" class="error-message"></p>
+
+            <label for="id2">Email</label>
+            <input id="id2" name="email" type="text" placeholder="abc@xyz.com" required>
+            <!-- Validates: Not empty, contains @ and ., specific format checks. -->
+            <p id="p2" class="error-message"></p>
+
+            <label for="id3">Password</label>
+            <input id="id3" name="password" type="password" placeholder="Min 8 chars" required>
+            <!-- Validates: Min 8 chars, at least 1 uppercase, at least 1 number. -->
+            <p id="p3" class="error-message"></p>
+            
+            <button type="submit" class="continue-button">Continue</button>
+        </form>
+
+        <p class="policy-text">
+            By continuing, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.
+        </p>
+        
+    </div>
+
+    <footer class="reg-footer">
+        <div class="links">
+            <a href="#">Conditions of Use</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Help</a>
+        </div>
+        <br>
+        <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+    
+    <script src="validation_v2.js"></script>
+</body>
+</html>

@@ -1,0 +1,761 @@
+*{font-family: Arial;
+    margin: 0%;
+}
+.navbar {
+     height: 60px;
+     width: 1525px;
+     background-color: #121921;
+     display:flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+
+.amazonlogo
+{
+     height: 50px;
+     width:129px;
+     background-image:url(apha.jpg) ;
+     background-size:cover;
+}
+
+.address
+{
+     color:rgba(255,255,255,0.75);
+     width: 145px;
+     height: 50px;
+}
+
+.border{
+     border: 1.5px solid transparent;
+}
+
+.border:hover{
+     border: 1.5px solid white;
+}
+
+
+.addressdel{
+     font-size: 12px;
+color: #CCCCCC;
+margin-top: 10px;
+margin-left:15px;
+
+
+}
+.addressindia{
+     font-size: 14px;
+     color:#ffffff;
+     margin: 3px;
+}
+.addressicon{
+     display:flex;
+}
+
+.search{
+     display: flex;
+width: 820px;
+height: 40px;
+justify-content: space-evenly;
+margin-left: 8px;
+margin-right: 10px;
+}
+
+#placeholder{
+     font-size: 15px;
+}
+
+.all{
+     
+     border-top-left-radius: 4px;
+     border-bottom-left-radius: 4px;
+     width:50px ;
+     padding-left: 5px;
+     text-align: center;
+     border: none;
+}
+
+.searchinput{ 
+     width: 720px;
+     font-size: larger;}
+
+.searchicon{
+     width: 45px;
+     display: flex;
+     justify-content: center;
+}
+
+.searchbutton{
+     width:46px;
+     background-color: orange;
+     border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+     border: none;
+}
+
+.flagen{
+    
+     width:60px;
+   
+     display: flex;
+     font-size: 14px;
+     margin-left: 1px;
+     padding: 15px 9px 5px 14px;
+     border: none;
+  
+}
+
+.flag{ 
+     background-image: url(flag.jpg);
+     background-size: cover;
+     height:15px;
+     width:20px;  
+}
+
+.enlanguage{
+     color: white;
+     background-color: #121921;
+     border: none;
+     font-weight: bold;
+}
+
+.accandlist{
+     height:40px;
+     width:120px;
+    padding-top:10px ;
+}
+
+#hello{
+     color:white ;
+font-size: 12px;
+font-weight: bold;
+}
+
+.accandlist1{
+     background-color: #121921;
+     color: white;
+     border:none;
+     font-size: 14px;
+     font-weight: bolder;
+}
+
+#returns{color:white ;
+     font-size: 12px;
+     font-weight: bold;
+}
+
+#orders{
+     color: white;
+     font-size: 14px;
+     font-weight: bolder;
+}
+.return{
+     width: 84px;
+     height: 40px;
+     text-align: left;
+     padding-top:10px ;
+}
+
+.cart{
+     color: white;
+     display: flex;
+     font-size:25px;
+     height: 40px;
+     width:70px;
+     padding-top: 10px;
+
+}
+
+.cart1{font-size: 14px;
+padding-top: 12px;
+font-weight: bolder;
+}
+
+.panel{
+     display:flex;
+     height: 39px;
+     width: 1525px;
+     background-color: #232f3f;
+     color: white;
+   align-items: center;
+   font-size:20px
+}
+
+.panelall{
+     display: flex;
+margin: 5px 0px 6px 5px;
+padding: 8px 9px 0px 5px ;
+}
+
+.del{
+     font-size: 14px;
+     margin: 5px 0px 6px 0px;
+     padding: 3px 9px 0px 0px ;
+}
+
+.all{
+     font-size: 14px;
+     background-color: #232f3f;
+     color: white;
+     padding-left: 0px ;
+}
+
+.prime{
+     background-color: #232f3f;
+     color:white;
+     border: none;
+}
+
+.container{
+     position: relative;
+}
+
+.mainbody{
+     background-image: url(ists.jpg);
+     height:300px;
+     width: 1525px;
+     background-size: cover;
+}
+
+.shopping{
+     background-color: #e2e6e7;
+     display: flex;
+     justify-content: space-evenly;
+     padding-left: 12px;
+     padding-right: 12px;
+     width:1503px;
+}
+
+.box {
+     width:358px;
+     height:420px;
+     background-color:white;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding-bottom: 15px;  
+}
+
+/*box1*/
+.conti{
+     display: flex;
+}
+.container1{
+     display: flex;
+     flex-direction: column;
+}
+
+.rug{
+     background-image: url(mat.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 17px;
+     margin-right: 8.5px;
+}
+
+.cushion{
+     margin-left: 17px;
+     margin-right: 8.5px;
+     height: 45px;
+     width: 140px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.container2{
+   display: flex;
+   flex-direction: column
+
+}
+
+.robot{
+     background-image:url(robo.jpg) ;
+     width: 150px;
+     height:117px;
+     margin-left: 8.5px;
+     margin-right: 17px;
+ }
+
+ .vases{
+     margin-left:9px;
+     margin-right: 8.5px;
+     width: 120px;
+     height: 45px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.conti1{
+     display: flex;
+}
+
+.container3{
+     display: flex;
+     flex-direction: column;
+}
+
+.storage{
+     background-image:url(boxes.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 17px;
+     margin-right: 8.5px;
+}
+
+.home{
+     margin-left: 17px;
+     margin-right: 8.5px;
+   height: 45px;
+     width: 140px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.container4{  
+     display: flex;
+     flex-direction: column;
+}
+
+.light{
+     background-image: url(lamp.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 8.5px;
+     margin-right: 17px;
+}
+.lighting{
+     margin-left:9px;
+     margin-right: 8.5px;
+     width: 120px;
+     height: 45px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.conti3{
+     font-size: 13px;
+     color:#007189;
+     padding: 0px 0px 15px  18px;
+}
+
+/*box2*/
+.conti4{
+     display: flex;
+}
+
+.ppp{
+     font-size: 21px;
+     line-height: 27px;
+     font-weight: bold;
+     padding: 20px 20px 10px 17px;
+}
+
+.container5{
+     display: flex;
+     flex-direction: column;
+}
+
+.ac{
+     background-image:url(airconditioner.jpg) ;
+     width: 150px;
+     height:117px;
+     margin-left: 17px;
+     margin-right: 8.5px;
+}
+
+.air{
+     margin-left: 17px;
+     margin-right: 8.5px;
+   height: 45px;
+     width: 140px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.container6{
+   display: flex;
+   flex-direction: column
+}
+
+.fridge{
+     background-image:url(fridge.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 8.5px;
+     margin-right: 17px;
+}
+
+.refridge{
+     margin-left:9px;
+     margin-right: 8.5px;
+     width: 120px;
+     height: 45px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.conti5{
+     display: flex;
+}
+
+.container7{
+     display: flex;
+flex-direction: column;
+}
+
+ .micro{
+     background-image:url(microwave.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 17px;
+     margin-right: 8.5px;
+ }
+
+ .microwave{margin-left: 17px;
+     margin-right: 8.5px;
+   height: 45px;
+     width: 140px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.container8{  
+     display: flex;
+     flex-direction: column;
+}
+
+.wm{
+     background-image: url(washingmachine.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 8.5px;
+     margin-right: 17px;
+}
+
+.washing{
+     margin-left:9px;
+     margin-right: 8.5px;
+     width: 120px;
+     height: 45px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.conti6{
+     font-size: 13px;
+     color:#007189;
+     padding: 0px 0px 15px  18px;
+}
+
+/*box3*/
+.ps{
+     font-size: 21px;
+     line-height: 27px;
+     font-weight: bold;
+     padding: 20px 20px 37px 17px; 
+}
+
+.conti7{
+     display: flex;
+}
+
+.container9{
+     display: flex;
+flex-direction: column;
+}
+
+.boat{
+     background-image:url(boat.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 17px;
+     margin-right: 8.5px;
+}
+
+.boatt{
+     margin-left: 17px;
+     margin-right: 8.5px;
+   height: 45px;
+     width: 140px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.container10{
+   display: flex;
+   flex-direction: column
+}
+
+.boult{
+     background-image:url(boult.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 8.5px;
+     margin-right: 17px;
+     background-size: contain;
+}
+
+.boultt{
+     margin-left:9px;
+     margin-right: 8.5px;
+     width: 120px;
+     height: 45px;
+     font-size: 12px;
+     line-height: 18px ;
+
+}
+
+ .conti8{
+     display: flex;
+ }
+
+ .container11{
+     display: flex;
+flex-direction: column;
+ }
+
+ .noise{
+     background-image:url(noise.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 17px;
+     background-size: contain;
+     margin-right: 8.5px;
+ }
+
+ .noiset{margin-left: 17px;
+     margin-right: 8.5px;
+   height: 45px;
+     width: 140px;
+     font-size: 12px;
+     line-height: 18px ;     
+}
+
+.container12{  
+     display: flex;
+     flex-direction: column;
+}
+
+.zebronics{
+     background-image: url(zerbronics.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 8.5px;
+     margin-right: 17px;
+     background-size: contain;
+}
+
+.zebronicst{
+     margin-left:9px;
+     margin-right: 8.5px;
+     width: 120px;
+     height: 45px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.conti9{
+     font-size: 13px;
+     color:#007189;
+     padding: 0px 0px 15px  18px;
+}
+
+/*box4*/
+.conti10{
+     display: flex;
+}
+
+.container13{
+     display: flex;
+flex-direction: column;
+}
+
+.toy{
+     background-image:url(toys.jpg) ;
+     width: 150px;
+     height:117px;
+     margin-left: 17px;
+     margin-right: 8.5px;
+}
+
+.toyt{
+     margin-left: 17px;
+     margin-right: 8.5px;
+     height: 45px;
+     width: 140px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.container14{
+   display: flex;
+   flex-direction: column
+}
+
+.containerr{
+     background-image:url(boxes.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 8.5px;
+     margin-right: 17px;
+     background-size: contain;
+ }
+
+ .containerrt{
+     margin-left:9px;
+     margin-right: 8.5px;
+     width: 120px;
+     height: 45px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.conti11{
+     display: flex;
+}
+
+.container15{
+     display: flex;
+flex-direction: column;
+ }
+
+ .pengiun{
+     background-image:url(pengiun.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 17px;
+     background-size: contain;
+     margin-right: 8.5px;
+ }
+
+ .pengiunt{margin-left: 17px;
+     margin-right: 8.5px;
+   height: 45px;
+     width: 140px;
+     font-size: 12px;
+     line-height: 18px ;     
+}
+
+.container16{ 
+     display: flex;
+     flex-direction: column;
+}
+
+.shoes{
+     background-image:url(shoes.jpg);
+     width: 150px;
+     height:117px;
+     margin-left: 8.5px;
+     margin-right: 17px;
+     background-size: contain;
+}
+
+.shoest{
+     margin-left:9px;
+     margin-right: 8.5px;
+     width: 120px;
+     height: 45px;
+     font-size: 12px;
+     line-height: 18px ;
+}
+
+.conti12{
+     font-size: 13px;
+     color:#007189;
+     padding: 0px 0px 15px  18px;
+}
+
+.bikecontainer{
+     background-color: #e2e6e7;
+     padding:20px 20px 20px 20px;
+     width: 1485px;
+}
+
+.box5{
+     width:1475px;
+     height:300px;
+     background-color:white;
+     padding-bottom: 15px; 
+}
+
+.bikedes{
+     line-height: 1.5;
+     font-size: 21px;
+     font-weight: bolder;
+     padding: 20px 20px 20px 20px;
+}
+
+.bikeactual{
+     display: flex;   
+     flex-direction: row;
+}
+
+.bike1{
+     background-image: url(bike1.jpg);
+     width: 290px;   
+     height:181px;
+     background-size: cover;
+}
+
+.bike2{
+     background-image: url(bike2.jpg);
+     width: 290px;   
+     height:181px;
+     background-size: cover;
+}
+
+.bike3{
+     background-image: url(bike3.jpg);
+     width: 290px;   
+     height:181px;
+     background-size: cover;
+}
+
+.bike4{
+     background-image:url(bike4.jpg) ;
+     width: 290px;   
+     height:181px;
+     background-size: cover;
+}
+
+.bike5{
+     background-image:url(bike5.jpg) ;
+     width: 290px;   
+     height:181px;
+     background-size: cover;
+}
+
+.backtotop{
+     background-color: #364759;
+     color: white;
+     font-size: 13px;
+     padding: 15px 0px 15px 0px;
+     height:19px;
+     width:1525px;
+     text-align: center;
+}
+
+.actualfooter{
+     background-color: #232f3f;
+     display: flex;
+     justify-content: space-evenly; 
+     width:1285px;
+     padding: 0px 120px 0px 120px; 
+}
+
+.acfoot{
+     padding-top: 40px;
+     width:200px;
+     height:294px;
+     color: white;
+}
+
+.class1{
+     font-size: 16px;
+     font-weight: 800;
+     padding-bottom: 5px;
+     
+}
+.class2{
+     font-size: 14px;
+     line-height: 2;
+     color: #dddddd;
+}
