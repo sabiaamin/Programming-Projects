@@ -29,7 +29,7 @@ A full-scale, pixel-accurate frontend replication of Amazon's e-commerce platfor
 ├── registration.html       # Amazon-style account creation & sign-up portal
 ├── registration_v2.css     # Clean, isolated stylesheet for the registration form
 ├── validation_v2.js        # Core JavaScript validation and conditional routing logic
-└── assets/                 # Directory containing required images, flags, and UI badges
+└── media/                 # Directory containing required images, flags, and UI badges
 ```
 
 ---
@@ -50,8 +50,3 @@ A full-scale, pixel-accurate frontend replication of Amazon's e-commerce platfor
 3. Open `registration.html` in any modern web browser to test the interactive authentication flow and validation rules.
 4. Upon successful validation, the application automatically routes to `amazon.html` to load the primary e-commerce dashboard.
 
----
-
-## License
-
-This project is developed for educational and portfolio demonstration purposes.
